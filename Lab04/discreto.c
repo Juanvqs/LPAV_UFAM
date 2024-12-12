@@ -3,9 +3,6 @@
 #include <math.h>
 #include "discreto.h"
 
-// COMANDO PARA COMPILAR PROGRAMA: gcc *.c *.h -o discreto -lm
-// COMANDO PARA EXECUTAR PROGRAMA: ./discreto <nome do arquivo>
-//	Aluno: Lucas de Lima Castro MAT: 21551892
 
 static bool lista_eventos_adicionar_ordenado(evento_t *evento, lista_eventos_t **lista){
 	lista_eventos_t *item_novo = malloc(sizeof(lista_eventos_t)); // Aloca o novo item
